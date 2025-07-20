@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: sonartest
+    runs-on:  [self-hosted, sonartest]
     steps:
       - uses: actions/checkout@v2
         with:
