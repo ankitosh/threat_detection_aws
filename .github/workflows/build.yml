@@ -18,7 +18,9 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: 11
-          distribution: 'temurin'
+          distribution: 'jdkfile'
+          jdkFile: /path/to/jdk.tar.gz
+
       - name: Cache SonarQube packages
         uses: actions/cache@v4
         with:
