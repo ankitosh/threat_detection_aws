@@ -19,7 +19,7 @@ jobs:
         with:
           java-version: 11
           distribution: 'jdkfile'
-          jdkFile: /path/to/jdk.tar.gz
+          jdkFile: /home/kali/actions-runner/java/jdk.tar.gz
 
       - name: Cache SonarQube packages
         uses: actions/cache@v4
